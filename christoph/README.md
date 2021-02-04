@@ -21,6 +21,15 @@
 - Feedback erhalten/einbauen
 - Kultur etablieren die es möglich macht aus Erfolgen und Misserfolgen zu lernen
 
+### Die beiden wichtigsten Punkte
+- Arbeit sichtbar machen
+- Fehler erlauben und daraus lernen
+
+### Überraschungen
+- Durchlaufzeit vs. Verarbeitungszeit
+
+***
+
 ## 2 - Die Prinzipien des Flows
 Flow wird erhöht durch:
  - Batch-Size und Intervalle verringern
@@ -36,3 +45,53 @@ Flow wird erhöht durch:
 - Nur eine bestimmte Anzahl von Tasks
 - Es darf an nichts gearbeitet werden, wofür kein Task erstellt worden ist
 - Verzögerungen erkennen/sichtbar machen
+
+### Batch-Size reduzieren
+- Ein erstes Resultat kommt schneller dadurch früher Feedback
+- Fehler werden früher erkannt
+- Beispiel Brief falten
+- Kleine Batches können schneller deployt werden
+
+### Handoffs
+- Kommunikation mit anderen Teams (Meetings, E-Mails, ...)
+- Wissen geht bei der Übergabe verloren
+- Kontext geht verloren
+- Lösung: Automatisieren
+
+### Bottleneck
+- Identifizieren und alle anderen Aufgaben unterordnen
+- Umgebung: Self-Service
+- Deployment: Vollständig automatisieren
+- TTD
+- Architektur soll keine Abhängigkeiten haben
+
+### Kontinuierliches Lernen
+- Teilweise erledigte Arbeit
+- Zusätzliche Arbeit die keinen Wert stiftet
+- Nur das nötigste entwickeln
+- Kontext switchen kostet Zeit
+- Unklare Anforderungen
+- Nicht automatisierte/standardisierte Arbeit
+
+### Die beiden wichtigsten Punkte
+- WIP-Limit beschränken und so fokussiert an Themen zu arbeiten die Wert erzeugen
+- Batch-Size verringern, dadurch kann ein Inkrement auch abgeschlossen werden
+
+### Überraschungen
+- keine nennenswerte
+
+***
+
+## 3- Feedback
+Durch Feedback Fehler die entstanden sind schnell aufzuspüren und zu beheben
+
+### Sicher arbeiten
+- Probleme gemeinsam lösen, fördert den Wissenaufbau
+- Führungskräfte schaffen andere Führungskräfte
+
+### Beim Auftreten erkennen
+- Annahmen entkräften
+- Fehlt das Feedback, schleichen sich Qualitäts- und Sicherheitsprobleme ein
+- Wasserfallmodell, entwickeln und erst spät Feedback darüber zu bekommen
+- Automatisiertes Build-, Testprozesse
+- Fehler zu verhindern
