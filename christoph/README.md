@@ -1,6 +1,6 @@
 # Teil I: Die drei Wege
 
-## 1 - Die drei Wege
+# 1 - Die drei Wege
 ### Die Wertkette in der Herstellung
 - fundamentales Konzept: Wertkette/Wertfluss
 - Folge von Aktivitäten um eine Anforderung zu erfüllen
@@ -28,9 +28,7 @@
 ### Überraschungen
 - Durchlaufzeit vs. Verarbeitungszeit
 
-***
-
-## 2 - Die Prinzipien des Flows
+# 2 - Die Prinzipien des Flows
 Flow wird erhöht durch:
  - Batch-Size und Intervalle verringern
  - Tests erzeugen
@@ -80,9 +78,8 @@ Flow wird erhöht durch:
 ### Überraschungen
 - keine nennenswerte
 
-***
 
-## 3- Feedback
+# 3- Feedback
 Durch Feedback Fehler die entstanden sind schnell aufzuspüren und zu beheben
 
 ### Sicher arbeiten
@@ -95,3 +92,82 @@ Durch Feedback Fehler die entstanden sind schnell aufzuspüren und zu beheben
 - Wasserfallmodell, entwickeln und erst spät Feedback darüber zu bekommen
 - Automatisiertes Build-, Testprozesse
 - Fehler zu verhindern
+
+### Probleme lösen
+- Anstatt Problem umgehen, sich um Lösungen kümmern
+- Probleme sofort beheben, verhindert das es Fehlerfortpflanzungen gibt
+- Blockiert die Arbeitsstation
+- Kultur schaffen, die es erlaubt Fehler zu machen
+- Schnelles Feedback durch Automatisierung
+
+### Qualität
+- N: langweilige, fehlerbehaftet Aufgaben an anderes Team delegieren
+- N: Riesige Dokumentation
+- N: Große Batch-Size
+- Verantwortung und Entscheidungsbefugnis soll da hin, wo auch die Arbeit ist
+- Peer Reviews
+- Verantwortung für Qualität muss jeder einzelne übernehmen
+  
+### Nachfolgende Arbeitsstation
+- externer Kunde (gibt das Geld)
+- interner Kunde (Kollegen, andere Teams)
+- Im Lean-Ansatz ist der interne Kunde wichtiger
+
+## Die beiden wichtigsten Punkte
+- Durch schnelles Feedback schneller reagieren zu können
+- Verantwortung den Teams übertragen
+## Überraschungen
+- Im Lean-Ansatz ist der interne Kunde wichtiger
+
+
+# 4 - Lernen und Experimentieren
+- Wird verhindert durch eine Kultur des Misstrauens und Angst Fehler zu machen
+- Menschen die auf Probleme hinweisen, werden als Störenfriede abgetan
+- Experimentieren schafft neue Verbesserungen 
+- Kultur des Vertrauens etablieren
+
+### Firmenweites Lernen
+- Wenn Fehler auftreten wird schnell ein Schuldiger gesucht
+- Fehler werden bestraft
+- Angst wird gefördert, bedeutet: Fehler/Probleme werden erst gar nicht mehr gemeldet
+
+| Pathologisch | Bürokratisch | Generativ |
+| ------------ | ------------ | --------- |
+|Angst und Drohungen | Regeln und Prozesse | Reflexion und Nachforschungen |
+|Informationen werden zurück gehalten oder verfälscht | Informationen eventuell ignoriert | Informationen aktiv gesucht |
+
+- G: Nicht abfällig reagieren, wenn Fehler passieren
+- Post-Mortem-Meetings
+- Firmenweites Lernen unterstützen (Plattform schaffen)
+
+
+### Tägliche Arbeit verbessern
+- Wenn Probleme bestehen bleiben, werden diese von Zeit zu Zeit schlimmer
+- Die technischen Schulden vermehren sich
+- Zeit expliziert nutzen um Probleme anzugehen (technische Schulden reduzieren)
+- Auch kleine Fehler sind zu betrachten
+
+### Lokale in globale Verbesserungen wandeln
+- Andere von den eigenen Verbesserungen in Kenntnis setzen
+- Kumuliertes und kollektives Wissen zusammenführen (ähnliche Arbeit)
+- Schuldfreie Post-Mortem-Berichte
+
+### Resilienzmuster in der täglichen Arbeit
+- Ausfälle wird mit mehr Waren an der einzelnen Station mitigiert
+- Gleiche Spannung bei uns mit reinbringen
+- Immerwährend die Deployment-Zeit zu verringern, Testzeiten zu minimieren, ggf. Architektur anpassen
+
+
+### Führungskräfte unterstützen das Lernen
+- Bedingungen schaffen, um täglich Großartiges zu Leisten
+- Dadurch lassen sich Fehler/Ausfälle vermeiden
+- Team definiert explizit, welches Probleme es lösen will
+- Führungskraft hilft dem Team die richtigen Fragen zu formulieren
+- Führungskräfte helfen dem Team Probleme in der täglichen Arbeit zu sehen und lösen
+
+## Die beiden wichtigsten Punkte
+- Kultur des Vertrauens aufbauen und offen über Probleme sprechen zu können
+- Teamübergreifendes Lernen etablieren
+
+## Überraschungen
+- 
