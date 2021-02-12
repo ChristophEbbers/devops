@@ -70,3 +70,53 @@ Dazu:
 - Dev und Op nicht nur gemeinsame Ziele, sondern auch Backlog
 - Gemeinsame Arbeits-Queue, anstatt im Bereich verschanzen
 - Geeignetes Mittel finden für die Kommunikation (Chat, etc.)
+
+# 7 Organisation und Architektur
+- Teams richtig organisieren
+- Viele Meetings, lange Durchlaufzeiten
+- Durch Änderungen der Business-Regeln zog einen Rattenschwanz an Änderungen mit sich
+
+## Organisatorische Archetypen
+- Funktionsorientierte Organisation, optimieren auf Experten
+- Matrixorientierte Organisation, zwei oder mehrere Manager
+- Markorientierte Organisation, schnelle Reaktion auf Kundenbedürfnisse
+
+## Probleme, die häufig auf zu starke Funktionsorientierung verursacht werden
+- Aufteilung anhand der Spezialisierung
+- Konsequenz: Lange Durchlaufzeiten, Dauer bei der Koordination der Aufgaben
+- Ziele der Wertekette können nicht verstanden oder erkannt werden
+- Viele Übergaben, viel Nacharbeit, Qualitätsprobleme, Flaschenhälse
+
+## Marktorientierte Teams anstreben
+- Sicher, unabhängig und schnell Features entwickelt
+- Von der Konzeption bis zum Abschalten Verantwortung übernehmen
+
+## Funktionsorientierung nutzen
+- Möglichst effektive und agile Unternehmungen zu schaffen
+- Abteilungen effektiv zusammenzuarbeiten
+- Arbeit transparent und priorisiert
+
+## Tests, Operations, Sicherheit
+- Jeder teilt das gemeinsame Ziel
+- Jeder hat das gleiche Verständnis für Qualität, Sicherheit und Verfügbarkeit
+
+## Jedes Teammitglied zum Generalisten machen
+- Spezialisierung führt zur Silobildung
+- I-Form vs. T-Form vs. E-Form
+- Generalisten können mehr Arbeit erledigen
+- Lernen unterstützen
+
+## Teamgrenzen Conways Gesetz
+- Große Teams: schwieriger gemeinsames Verständnis und gegenseitiges Vertrauen aufzubauen
+- Softwarearchitektur soll kleinen Teams ermöglichen unabhängig voneinander zu entwickeln
+
+## Lose gekoppelte Architektur
+- Abhängigkeiten blockieren
+- Domain Driven Design
+
+## 2PT
+- Fünf und zehn Personen
+- Klares gemeinsames Verständnis
+- Beschränkt die Wachstumsrate, dauerhaftes Verständnis
+- Autonom wie möglich
+- Fehler führt zu keinen katastrophalen Konsequenzen
