@@ -1,5 +1,5 @@
 # Kapitel 9: Die Grundlagen für unsere Deployment Pipeline legen
-Zusammenfassung
+
 # Kapitel 10: Schnelles und zuverlässiges, automatisiertes Test ermöglichen
 
 - Continious Build, Test und Integration von Code und Umgebung
