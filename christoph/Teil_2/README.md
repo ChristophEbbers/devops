@@ -120,3 +120,27 @@ Dazu:
 - Beschränkt die Wachstumsrate, dauerhaftes Verständnis
 - Autonom wie möglich
 - Fehler führt zu keinen katastrophalen Konsequenzen
+
+# 8 Ops in der täglichen Entwicklungsarbeit
+- Wollen marktorientierte Ergebnisse und viele kleine unabhängige Teams
+- Services und Plattformen sollen vollen automatisiert erstellt werden können
+- Standardisierung
+
+## Ops in Teams integrieren
+- Erzeugt engere Verbindung
+- Können sich ebenfalls mit Produkt identifizieren
+- Leichtere Weitergabe von Wissen und Know-how
+
+## Ops-Liaison
+- feste Kontaktperson
+- ist zuständig für Operabilität und Skalierbarkeit
+- Monitoring
+- Aufbau einer Infrastruktur
+- Ops soll kein Flaschenhals sein
+
+## Ops Rituale
+- In die Dev Rituale mit einbinden
+- gleiche agilen Rituale übernehmen
+- Stand-ups
+- Retrospektiven
+- Ops-Arbeit sichtbar machen
