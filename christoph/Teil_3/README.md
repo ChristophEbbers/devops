@@ -83,4 +83,3 @@
 ## Warum wir die Andon-Cord ziehen
 - Problem wird immer schwieriger zu beheben
 - Man dadurch nicht mehr weiß, durch was der Fehler ausgelöst ist
-- 
