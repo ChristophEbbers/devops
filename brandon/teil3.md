@@ -1,4 +1,24 @@
 # Kapitel 9: Die Grundlagen für unsere Deployment Pipeline legen
+## Zusammenfassung
+- Umgebungen auf Anforderungen erstellen können
+- Single Repository
+- Infrastruktur neubauen statt reparieren
+- Definition des "Done" so anpassen, dass der Code in Prod läuft
+
+
+## Welche Fragen sind offen geblieben?
+Nichts.
+
+## Was ist unklar?
+Nichts.
+
+## Was sind die zwei wichtigsten Punkte
+1. So früh wie möglich reale Anforderungen dem Entwickler geben, um seinen Code zu testen
+2. Single Source of truth "Repo" beinhaltet auch die Anforderungen
+
+## Was hat Dich überrascht?
+Die Definition von "Done", wurde nicht angepasst sondern ist jetzt umfangreicher
+
 
 # Kapitel 10: Schnelles und zuverlässiges, automatisiertes Test ermöglichen
 ## Zusammenfassung
@@ -35,10 +55,55 @@ Ausgangsbedingung: Entkoppelte Architektur
 - Trunk-basierte Entwicklungspraktiken übernehmen
 
 ## Welche Fragen sind offen geblieben?
+Nichts.
 
 ## Was ist unklar?
+Nichts.
 
 ## Was sind für Dich zwei wichtigsten Punkte?
+1. Trunkbasiert da stabilier
+2. Trunkbasiert da höherer Durchsatz
 
 ## Was hat Dich überrascht?
+Trunkbasiert führt zu höhere Zufriedenheit und niedriger Burnout-Raten
 
+# Kapitel 12: Releases automatisieren und ihr Risiko reduzieren
+
+## Zusammenfassung
+- Unseren Deployment-Process automatisieren
+- Automatisierte Self-Service-Deployment ermöglichen
+- Code-Deployment in die Deployment-Pipeline einbinden
+- Deployments von Releases entkoppeln
+- Umgebungsbasierte Release-Muster
+    - Blue-Green-Deployment
+    - Canary Deployment
+    - Anwendungsbasierte Muster   
+## Welche Fragen sind offen geblieben?
+Es gibt dennoch einen 
+## Was ist unklar?
+Was ist ein Self-Service
+## Was snd für Dich die zwei wichtigsten Punkte?
+1. Deployments müssen ebenfalls zur Routine werden
+2. Schalter muss erstellt werden
+
+## Was hat dich überrascht?
+Deployment von Releases entkoppeln
+
+
+# Kapitel 13: Eine Architektur für risikoarme Releases
+## Zusammenfassung
+
+- Architektonische Prototypen: Monolith vs. Mircoservices
+- Mit dem Strangler-Application-Muster die Firmenarchitektur sicher weiterentwickeln
+
+## Welche Fragen sind offen geblieben?
+Wie bestimme ich die richtige Architektur?
+Sind Commits und Codezeilen die richtige Metrik?
+## Was ist unklar?
+
+## Was sind für Dich die zwei wichtigsten Dinge?
+1. Es gibt nicht die perfekte Architektur
+2. Wie messe ich das
+
+## Was hat Dich überrascht
+Strangler-Muster - das Bild - hat mir sehr gut gefallen
