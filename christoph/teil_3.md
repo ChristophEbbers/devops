@@ -83,3 +83,73 @@
 ## Warum wir die Andon-Cord ziehen
 - Problem wird immer schwieriger zu beheben
 - Man dadurch nicht mehr weiß, durch was der Fehler ausgelöst ist
+
+# 11 Continuous Integration ermöglichen
+- Isolierte Branches vermeiden, da immer schwieriger auf master zu mergen
+- Integrationsprobleme führen zu nacharbeiten
+- Schmutzige Hacks werden gemacht, um Release-Datum zu halten
+
+## Entwicklung in kleinen Batches und was passiert wenn man zu wenig in den master zurückführt
+- Verschiedene Optionen:
+  - Auf individuelle Produktivität hin optimieren
+  - Auf Teamproduktivität hin optimieren
+- Der Aufwand Branches wieder zusammenzuführen steigt exponentiell mit der Anzahl der Branches
+- Sinkende Motivation den Code zu verbesseren bzw. zu refactoren
+
+## Trunk-based
+- Je häufiger Entwickler in Trunk integrieren, desto geringer das Risiko und kleinere Batches
+- Ergebnis: Höhere Qualität und kürzer Deployment-Zeiten
+- Deutlich höhere Jobzufriedenheit und niedrigere Burn-out-Raten
+
+# 12 Releases automatisieren und Risiko reduzieren
+- Code-Deployments sollten automatisiert, wiederholbar und planbar gemacht werden
+- Wird ein Prod-Deployment verschoben, so werden die Unterschiede zwischen der Code-Basis immer größer
+- Risiko für unerwartete Ergebnisse steigt
+
+## Deployment-Prozess automatisieren
+- Wir wollen nicht nur die Durchlaufzeit verringern, sondern
+  - Anzahl der Übergaben reduzieren
+  - Wissensverlust begrenzen
+- In allen Umgebungen auf die gleiche Art und Weise deployen
+- Sicherstellen das Umgebung konsistent ist
+
+## Code-Deployment in Build-Pipline integrieren
+- Auditing und Compliance berücksichtigen
+- Schnelles Feedback liefern, ob Deployment erfolgreich war
+- Deployment darf nicht lange dauern
+
+## Deployments vom Release entkoppeln
+- Installieren vs. verfügbar machen
+- Umgebungsbasiert
+  - Traffic umleiten
+  - Blue-Green
+- Anwendungsbasiert
+  - Feature-Flag nutzen
+  - Feature-Toggel umlegen und neue Funktion ist verfügbar
+- Dark Lunches durchführen
+  - Funktionalität für User noch nicht sichtbar
+  - Lasttest durchführen im Hintergrund
+  - Big-Bang-Release wird dadurch verhindert
+
+## Übersicht Continuous Delivery und Continuous Deployment
+- Deployments sollen ein geringes Risiko haben
+- Sind leicht durchführbar
+- Operations-Arbeit soll humaner werden
+
+# 13 Architektur für risikoarme Releases
+- Architektur muss sich weiterentwickeln
+- Strangler-Application-Muster
+- Bestehende Funktionalität hinter API verstecken
+- Eng gekoppelte Architektur erfordert ein hohes Maß an Kommunikations und Koordination
+- Serviceorientierte Architekturen enabled kleine Teams
+- Monolith vs. Microservice
+- Bsp. Amazon
+  - Strikte serviceorientierte Architektur
+  - Verbot von direkten Datenbankzugriffen
+  - Entwicklung- und Operations-Prozess
+
+# Strangler
+- API muss sauber definiert und muss unverändert bleiben
+- Teile vom Altsystem Stück für Stück abkoppeln
+- Architektur entscheidet darüber wie produktiv das Team ist
+
