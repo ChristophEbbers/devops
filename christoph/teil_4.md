@@ -19,3 +19,26 @@
 ## Mit Telemetriedaten beim Lösen von Problemen helfen
 - Kultur von Schuldzuweisung vermeiden
 - Biete die Möglichkeiten Hypothesen zur Fehlerursache oder Lösen eines Problems anzuwenden
+- Eine Zeile Code muss ausreichen
+
+## Self-Service
+- Jeder soll Zugriff auf Telemetriedaten haben
+- Das Team hat nichts zu verbergen
+- Ggf. auch an Kunden weitergeben, Vertrauen schaffen
+
+## Telemetrielücken finden und füllen
+- Aus den Ebenen: Business, Anwendung, Infrastruktur, Client, Deployment-Pipeline
+- Alle Bereich abdecken, um so den Zustand zu kennen
+- Sicherheitsrelevanten Vorfälle kennen
+- Probleme fürher erkennen und beheben
+
+## Anwendungs- und Business-Metriken
+- Benutzer-Events/Benutzer-Interaktionen
+- Entscheidung darüber welche Experimente wir nutzen können
+- Transaktionszahlen über Weihnachten etc.
+
+## Infrastruktur
+- Speicherbedarf der Datenbank, der JVM
+
+# 15 Telemetriedaten analysieren
+- 
