@@ -41,4 +41,13 @@
 - Speicherbedarf der Datenbank, der JVM
 
 # 15 Telemetriedaten analysieren
-- 
+- Berechnung des Mittelwerts und der Standardabweichung, anhand der Metriken Abweichungen erkennen
+- Schwellwert zu definieren, ist manchmal nicht machbar
+
+## Probleme
+- Wenn keine Gauß-Verteilung entsteht
+- Einbeziehen von Histogrammen und Schwellwert definieren
+
+## Techniken
+- Gleitenden Mittelwert bei Zeitreihen
+  
